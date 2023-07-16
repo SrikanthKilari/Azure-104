@@ -1,0 +1,26 @@
+# Storage
+  Local, Geo and Geo redundency (High availability and durability)
+  Security
+  Scalability & Managed
+  Access
+
+Standard and Premium
+LRS - 99.99 (11 9's)of durability 
+ZRS - 99.99 (12 9's) of durability - if entire region goes down, no chance of backup
+GRS - Primary and sencondary regions - 99.99 (16 9's) 2nd is available only after 1st failover
+Read access GRS - 2nd one is always read request. if 1st fails, 2nd read and write
+GZRS - 3 copies with 3 zones and 2nd in one data center with 3 copies
+
+Securing Storage Endpoints
+	Encryption - Authentication - data in transit - disk encryption - shared access signature
+SSE & ADE 
+	SSE - Storage Service Encryption
+		Protection & Compliance, Storage chiper (256 bit), Bring your own keys
+	ADE- Azure Data Encryption
+		Encrypt disks, Restrict access, Encrypted backup, Considarations
+SSAA
+
+
+
+	
+
